@@ -8,18 +8,16 @@ const Projects = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        My{" "}
+        Meus{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
-          Projects
+          Projetos
         </span>
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+      Me dediquei a fazer diversos trabalhos ao longo dos anos, mas estes são os que tenho mais afeto
+      Muitos são de código aberto, então, caso algo lhe desperte interesse, sinta-se à vontade para explorar o repositório
+      e contribuir com suas sugestões para aprimoramentos adicionais.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
@@ -48,7 +46,7 @@ const Projects = () => {
                   rel='noopener noreferrer'
                   className='font-semibold text-blue-600'
                 >
-                  Live Link
+                  Link do projeto
                 </Link>
                 <img
                   src={arrow}

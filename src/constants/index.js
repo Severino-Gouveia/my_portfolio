@@ -107,6 +107,7 @@ export const skills = [
         name: "TypeScript",
         type: "Frontend",
     }
+    
 ];
 
 export const experiences = [
@@ -173,56 +174,56 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Severino-Gouveia',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/severino-gouveia-2591ba261/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: threads,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Santa Cecília',
+        description: 'O aplicativo está em desenvolvimento e foi implantado em uma hospedagem gratuita. No entanto, há um atraso significativo na inicialização do aplicativo devido à sua permanência em estado de hibernação - Os usuários podem se registrar para participar de eventos selecionando as opções desejadas no formulário e fornecendo suas informações de contato. Eles também têm a opção de receber um email de confirmação. O administrador pode visualizar e gerenciar os eventos e as respostas dos usuários através da interface de administração.',
+        link: 'https://santa-cecilia.onrender.com/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Clone do Threads ',
+        description: 'Uma réplica completa da popular plataforma  "Threads", permitindo que os usuários postem e participem de conversas encadeadas.',
+        link: 'https://santa-cecilia.onrender.com/',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Aplicativo para encontrar carros',
+        description: 'Projetei e construí um aplicativo móvel para encontrar e comparar carros no mercado, agilizando o processo de compra de carros.',
+        link: 'https://santa-cecilia.onrender.com/',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Clone do Instagram ',
+        description: 'Construiu um clone completo do Instagram, permitindo aos usuários compartilhar fotos e se conectar com amigos em um ambiente familiar de mídia social.',
+        link: 'https://santa-cecilia.onrender.com/',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'web App Construcão',
+        description: 'Desenvolvi uma aplicação web para listagens de imóveis, facilitando a busca de imóveis e conectando compradores com vendedores.',
+        link: 'https://github.com/Severino-Gouveia/Construcao',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Clone chat gpt ',
+        description: 'Aplicativo que utiliza IA para gerar automaticamente resumos concisos e informativos a partir de longos conteúdos de texto ou blogs.',
+        link: 'https://github.com/Severino-Gouveia/my-chat',
     }
 ];
