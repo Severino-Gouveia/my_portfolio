@@ -181,3 +181,10 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
+.image-container {
+  width: 200px; /* Largura máxima da imagem */
+  height: 200px; /* Altura máxima da imagem */
+  border-radius: 50%; /* Para tornar a imagem arredondada */
+  border: 10px solid white; /* Cor e largura da moldura */
+  overflow: hidden; /* Para ocultar partes da imagem que ultrapassam a moldura */
+}

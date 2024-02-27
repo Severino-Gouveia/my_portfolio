@@ -12,23 +12,22 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Hello, I'm{" "}
+       Olá, Sou{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Severino
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+        Como desenvolvedor web, estou constantemente atualizado com as mais recentes tecnologias e tendências do setor. Tenho expertise em desenvolvimento front-end e back-end, utilizando linguagens como HTML, CSS, JavaScript, Python, e frameworks como React, Django. Minha abordagem é centrada no usuário, garantindo que minhas aplicações sejam intuitivas, responsivas e visualmente atraentes.
         </p>
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>Minhas Skills</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
@@ -47,11 +46,10 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Minhas expectativas</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            Sonho em trabalhar na area e densevolver projetos do nivel institucional dessas empresas
           </p>
         </div>
 

@@ -115,12 +115,12 @@ export const experiences = [
         company_name: "Starbucks",
         icon: starbucks,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "?",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desenvolvimento e manutenção de aplicações web usando React.js e outras tecnologias relacionadas.",
+            "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores, para criar",
+            "Implementar design responsivo e garantir compatibilidade entre navegadores.",
+            "Participar de revisões de código e fornecer feedback construtivo a outros desenvolvedores.",
         ],
     },
     {
@@ -128,12 +128,12 @@ export const experiences = [
         company_name: "Tesla",
         icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "?",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desenvolvimento e manutenção de aplicações web utilizando React.js e outras tecnologias relacionadas.",
+            "Colaboração com equipes multifuncionais, incluindo designers, gerentes de produtos e outros desenvolvedores, para criar produtos de alta qualidade.",
+            "Implementação de design responsivo e garantia de compatibilidade entre navegadores.",
+            "Participação em revisões de código e fornecimento de feedback construtivo para outros desenvolvedores."
         ],
     },
     {
@@ -141,12 +141,12 @@ export const experiences = [
         company_name: "Shopify",
         icon: shopify,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "?",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desenvolvendo e mantendo aplicações web utilizando React.js e outras tecnologias relacionadas.",
+            "Colaborando com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
+            "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+            "Participando de revisões de código e fornecendo feedback construtivo para outros desenvolvedores."
         ],
     },
     {
@@ -154,12 +154,12 @@ export const experiences = [
         company_name: "Meta",
         icon: meta,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "?",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desenvolvendo e mantendo aplicações web utilizando React.js e outras tecnologias relacionadas.",
+            "Colaborando com equipes multidisciplinares, incluindo designers, gerentes de produto e outros desenvolvedores, para criar produtos de alta qualidade.",
+            "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+            "Participando de revisões de código e fornecendo feedback construtivo para outros desenvolvedores."
         ],
     },
 ];

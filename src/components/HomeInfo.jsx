@@ -8,38 +8,40 @@ const HomeInfo = ({ currentStage }) => {
   switch (currentStage) {
     case 1:
       content = (
-        <div className="flex flex-col md:flex-row justify-between items-center py-8 px-4 md:px-8 text-" >
-          <div className="md:w-1/2 md:pr-8 mb-4 md:mb-0">
+        <div className="flex flex-col md:flex-row justify-between items-center py-8 px-4 md:px-8 text-center">
+          <div className="md:w-1/2 md:pr-8 mb-4 md:mb-0 text-white">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">
-              Olá, eu sou{" "}
-              <span className="text-neo-blue">Severino Gouveia</span> 👋
+              Olá, sou Severino Gouveia 👋
             </h1>
             <p className="text-lg md:text-xl font-medium">
               Desenvolvedor Web | Analista de Dados
             </p>
           </div>
           <div className="md:w-1/2">
-            <img
-              src={severinoImage}
-              alt="Severino Gouveia"
-              className="mx-auto rounded-full shadow-lg"
-              style={{ maxWidth: "200px", maxHeight: "200px" }}
-            />
+            <div className="image-container rounded-full border-4 border-white overflow-hidden" style={{ maxWidth: "200px", maxHeight: "200px" }}>
+              <img
+                src={severinoImage}
+                alt="Severino Gouveia"
+                className="mx-auto"
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
           </div>
         </div>
       );
       break;
+    
 
     case 2:
       content = (
-        <div className="info-box bg-gray-100 p-6 rounded-lg shadow-md">
+        <div className="info-box bg-gray-100 p-6 rounded-lg shadow-md text-center">
           <p className="text-lg md:text-xl font-medium mb-4">
             Estou precisando de uma oportunidade para adquirir habilidades e
             construir minha carreira
           </p>
           <Link
             to="/about"
-            className="bg-neo-blue text-white py-2 px-4 rounded-lg inline-flex items-center"
+            className="p-5 w-30 h-8 rounded-lg bg-white flex items-center justify-center font-bold shadow-md text-blue-600 mx-auto"
           >
             Saber mais{" "}
             <img
@@ -54,13 +56,13 @@ const HomeInfo = ({ currentStage }) => {
 
     case 3:
       content = (
-        <div className="info-box bg-gray-100 p-6 rounded-lg shadow-md">
+        <div className="info-box bg-gray-100 p-6 rounded-lg shadow-md text-center">
           <p className="text-lg md:text-xl font-medium mb-4">
             Quero construir vários projetos com sucesso. Curioso sobre?
           </p>
           <Link
             to="/projects"
-            className="bg-neo-blue text-white py-2 px-4 rounded-lg inline-flex items-center"
+            className=" p-5 w-30 h-8 rounded-lg bg-white flex items-center justify-center font-bold shadow-md text-blue-600 mx-auto"
           >
             Visite meu portfólio{" "}
             <img
@@ -75,14 +77,14 @@ const HomeInfo = ({ currentStage }) => {
 
     case 4:
       content = (
-        <div className="info-box bg-gray-100 p-6 rounded-lg shadow-md">
+        <div className="info-box bg-gray-100 p-6 rounded-lg shadow-md text-center">
           <p className="text-lg md:text-xl font-medium mb-4">
             Precisa de um projeto feito ou procura um desenvolvedor? Estou a
             apenas algumas teclas de distância
           </p>
           <Link
             to="/contact"
-            className="bg-neo-blue text-white py-2 px-4 rounded-lg inline-flex items-center"
+            className="p-5 w-30 h-8 rounded-lg bg-white flex items-center justify-center font-bold shadow-md text-blue-600 mx-auto"
           >
             Vamos conversar{" "}
             <img
