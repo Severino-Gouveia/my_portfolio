@@ -33,7 +33,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Severino Gouveia",
           from_email: form.email,
-          to_email: "severinogouveia_@hotmail.com", // Modifique o endereço de destino aqui
+          to_email: "severinogouveia_@hotmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -43,7 +43,7 @@ const Contact = () => {
           setLoading(false);
           showAlert({
             show: true,
-            text: "Obrigado pela sua mensagem 😃",
+            text: "Obrigado pela sua mensagem😃",
             type: "success",
           });
 
@@ -52,7 +52,7 @@ const Contact = () => {
             setCurrentAnimation("idle");
             setForm({
               name: "",
-              email: "",
+              to_name: "",
               message: "",
             });
           }, [3000]);
@@ -64,7 +64,7 @@ const Contact = () => {
 
           showAlert({
             show: true,
-            text: "Não consegui receber sua mensagem 😢",
+            text: "Não recebi sua mensagem😢",
             type: "danger",
           });
         }
@@ -103,7 +103,7 @@ const Contact = () => {
               type='email'
               name='email'
               className='input'
-              placeholder='Exemplo@gmail.com'
+              placeholder='severino@gmail.com'
               required
               value={form.email}
               onChange={handleChange}
@@ -112,7 +112,7 @@ const Contact = () => {
             />
           </label>
           <label className='text-black-500 font-semibold'>
-            Sua mensagem
+          Sua mensagem
             <textarea
               name='message'
               rows='4'
@@ -132,7 +132,7 @@ const Contact = () => {
             onFocus={handleFocus}
             onBlur={handleBlur}
           >
-            {loading ? "Enviando..." : "Enviar"}
+            {loading ? "Sending..." : "Submit"}
           </button>
         </form>
       </div>
@@ -171,4 +171,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
